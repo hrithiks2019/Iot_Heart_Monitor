@@ -1,0 +1,34 @@
+Wiring :
+
+1.] LCD  to Arduino UNO:
+
+
+LCD               UNO
+
+VSS ------------ GND
+VDD ------------ +5V
+RS  ------------ 8
+E   ------------ 9
+D4  ------------ 4
+D5  ------------ 5
+D6  ------------ 6
+D7  ------------ 7
+
+
+2.] Node mcu to arduino uno:
+
+Nodemcu          UNO
+
+VIN ------------ VIN
+GND ------------ GND
+RX  ------------ TX
+
+
+3.] Sensor to arduino uno:
+
+
+sensor            UNO
+
++ve ------------- 3.3v
+-ne ------------- GND
+S   ------------- A0
